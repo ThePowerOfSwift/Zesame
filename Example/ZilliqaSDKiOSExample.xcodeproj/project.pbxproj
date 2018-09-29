@@ -70,6 +70,15 @@
 		48C8A0112143CE8F0063B0FA /* UIColor_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8A0102143CE8F0063B0FA /* UIColor_Extension.swift */; };
 		48C8A0132143CF6C0063B0FA /* RestoreWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C8A0122143CF6C0063B0FA /* RestoreWallet.swift */; };
 		48D0E6D9215B5DCF00D5D670 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D0E6D8215B5DCF00D5D670 /* HistoryView.swift */; };
+		48EFD497215F74F100C80396 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48EFD48E215F74F100C80396 /* CryptoSwift.framework */; };
+		48EFD498215F74F100C80396 /* BigInt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48EFD48F215F74F100C80396 /* BigInt.framework */; };
+		48EFD499215F74F100C80396 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48EFD490215F74F100C80396 /* Result.framework */; };
+		48EFD49A215F74F100C80396 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48EFD491215F74F100C80396 /* RxSwift.framework */; };
+		48EFD49B215F74F100C80396 /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48EFD492215F74F100C80396 /* APIKit.framework */; };
+		48EFD49C215F74F100C80396 /* SipHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48EFD493215F74F100C80396 /* SipHash.framework */; };
+		48EFD49D215F74F100C80396 /* EllipticCurveKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48EFD494215F74F100C80396 /* EllipticCurveKit.framework */; };
+		48EFD49E215F74F100C80396 /* JSONRPCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48EFD495215F74F100C80396 /* JSONRPCKit.framework */; };
+		48EFD49F215F74F100C80396 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48EFD496215F74F100C80396 /* RxCocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -219,6 +228,15 @@
 		48C8A0122143CF6C0063B0FA /* RestoreWallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoreWallet.swift; sourceTree = "<group>"; };
 		48C8A0172143D33E0063B0FA /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = ../Carthage/Build/iOS/CryptoSwift.framework; sourceTree = "<group>"; };
 		48D0E6D8215B5DCF00D5D670 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		48EFD48E215F74F100C80396 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = ../Carthage/Build/iOS/CryptoSwift.framework; sourceTree = "<group>"; };
+		48EFD48F215F74F100C80396 /* BigInt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BigInt.framework; path = ../Carthage/Build/iOS/BigInt.framework; sourceTree = "<group>"; };
+		48EFD490215F74F100C80396 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = ../Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		48EFD491215F74F100C80396 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = ../Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		48EFD492215F74F100C80396 /* APIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = APIKit.framework; path = ../Carthage/Build/iOS/APIKit.framework; sourceTree = "<group>"; };
+		48EFD493215F74F100C80396 /* SipHash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SipHash.framework; path = ../Carthage/Build/iOS/SipHash.framework; sourceTree = "<group>"; };
+		48EFD494215F74F100C80396 /* EllipticCurveKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EllipticCurveKit.framework; path = ../Carthage/Build/iOS/EllipticCurveKit.framework; sourceTree = "<group>"; };
+		48EFD495215F74F100C80396 /* JSONRPCKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JSONRPCKit.framework; path = ../Carthage/Build/iOS/JSONRPCKit.framework; sourceTree = "<group>"; };
+		48EFD496215F74F100C80396 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = ../Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		48F03F9C2142686900A13E5E /* SipHash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SipHash.framework; path = ../Carthage/Build/iOS/SipHash.framework; sourceTree = "<group>"; };
 		48F03F9D2142686A00A13E5E /* BigInt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BigInt.framework; path = ../Carthage/Build/iOS/BigInt.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -228,7 +246,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48EFD49A215F74F100C80396 /* RxSwift.framework in Frameworks */,
+				48EFD497215F74F100C80396 /* CryptoSwift.framework in Frameworks */,
+				48EFD498215F74F100C80396 /* BigInt.framework in Frameworks */,
+				48EFD49F215F74F100C80396 /* RxCocoa.framework in Frameworks */,
+				48EFD49B215F74F100C80396 /* APIKit.framework in Frameworks */,
 				48BD4ADA215EA792005F1B18 /* Zesame.framework in Frameworks */,
+				48EFD49D215F74F100C80396 /* EllipticCurveKit.framework in Frameworks */,
+				48EFD49C215F74F100C80396 /* SipHash.framework in Frameworks */,
+				48EFD49E215F74F100C80396 /* JSONRPCKit.framework in Frameworks */,
+				48EFD499215F74F100C80396 /* Result.framework in Frameworks */,
 				48C89FBD2142BCF70063B0FA /* RxCocoa.framework in Frameworks */,
 				48C89FBE2142BCF70063B0FA /* TinyConstraints.framework in Frameworks */,
 				48C89FBF2142BCF70063B0FA /* ViewComposer.framework in Frameworks */,
@@ -339,6 +366,15 @@
 		484B069820BA104500C4E50A /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
+				48EFD492215F74F100C80396 /* APIKit.framework */,
+				48EFD48F215F74F100C80396 /* BigInt.framework */,
+				48EFD48E215F74F100C80396 /* CryptoSwift.framework */,
+				48EFD494215F74F100C80396 /* EllipticCurveKit.framework */,
+				48EFD495215F74F100C80396 /* JSONRPCKit.framework */,
+				48EFD490215F74F100C80396 /* Result.framework */,
+				48EFD496215F74F100C80396 /* RxCocoa.framework */,
+				48EFD491215F74F100C80396 /* RxSwift.framework */,
+				48EFD493215F74F100C80396 /* SipHash.framework */,
 				48BD4AC9215EA77B005F1B18 /* Zesame.xcodeproj */,
 			);
 			name = Dependencies;
