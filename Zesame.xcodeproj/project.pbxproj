@@ -124,7 +124,6 @@
 		484E09E921543F3B003D928E /* MessageFromUnsignedTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageFromUnsignedTransaction.swift; sourceTree = "<group>"; };
 		484E09EC215440B1003D928E /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		484E09EF21544134003D928E /* DefaultAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultAPIClient.swift; sourceTree = "<group>"; };
-		487166572141ADEA00F0B413 /* SwiftCrypto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftCrypto.framework; path = Carthage/Build/iOS/SwiftCrypto.framework; sourceTree = "<group>"; };
 		487166582141ADEA00F0B413 /* BigInt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BigInt.framework; path = Carthage/Build/iOS/BigInt.framework; sourceTree = "<group>"; };
 		487166592141ADEA00F0B413 /* SipHash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SipHash.framework; path = Carthage/Build/iOS/SipHash.framework; sourceTree = "<group>"; };
 		48838C9420B9F64800C18DC2 /* WalletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletTests.swift; sourceTree = "<group>"; };
@@ -281,7 +280,6 @@
 				48E849C62144404F00A06C40 /* EllipticCurveKit.framework */,
 				487166582141ADEA00F0B413 /* BigInt.framework */,
 				487166592141ADEA00F0B413 /* SipHash.framework */,
-				487166572141ADEA00F0B413 /* SwiftCrypto.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
