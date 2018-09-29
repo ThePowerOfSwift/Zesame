@@ -79,6 +79,18 @@
 		48EFD49D215F74F100C80396 /* EllipticCurveKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48EFD494215F74F100C80396 /* EllipticCurveKit.framework */; };
 		48EFD49E215F74F100C80396 /* JSONRPCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48EFD495215F74F100C80396 /* JSONRPCKit.framework */; };
 		48EFD49F215F74F100C80396 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48EFD496215F74F100C80396 /* RxCocoa.framework */; };
+		48EFD4A0215F75CB00C80396 /* APIKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 48EFD492215F74F100C80396 /* APIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		48EFD4A1215F75CB00C80396 /* BigInt.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 48EFD48F215F74F100C80396 /* BigInt.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		48EFD4A2215F75CB00C80396 /* CryptoSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 48EFD48E215F74F100C80396 /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		48EFD4A3215F75CB00C80396 /* EllipticCurveKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 48EFD494215F74F100C80396 /* EllipticCurveKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		48EFD4A4215F75CB00C80396 /* JSONRPCKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 48EFD495215F74F100C80396 /* JSONRPCKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		48EFD4A5215F75CB00C80396 /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 48EFD490215F74F100C80396 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		48EFD4A6215F75CB00C80396 /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 48EFD496215F74F100C80396 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		48EFD4A7215F75CB00C80396 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 48EFD491215F74F100C80396 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		48EFD4A8215F75CB00C80396 /* SipHash.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 48EFD493215F74F100C80396 /* SipHash.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		48EFD4A9215F75E500C80396 /* TinyConstraints.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 48C89FBA2142BCF70063B0FA /* TinyConstraints.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		48EFD4AA215F75E500C80396 /* ViewComposer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 48C89FBB2142BCF70063B0FA /* ViewComposer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		48EFD4AB215F75F700C80396 /* FormValidatorSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 488A657C215593200091FD03 /* FormValidatorSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -140,6 +152,18 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				48EFD4AB215F75F700C80396 /* FormValidatorSwift.framework in Embed Frameworks */,
+				48EFD4A9215F75E500C80396 /* TinyConstraints.framework in Embed Frameworks */,
+				48EFD4AA215F75E500C80396 /* ViewComposer.framework in Embed Frameworks */,
+				48EFD4A0215F75CB00C80396 /* APIKit.framework in Embed Frameworks */,
+				48EFD4A1215F75CB00C80396 /* BigInt.framework in Embed Frameworks */,
+				48EFD4A2215F75CB00C80396 /* CryptoSwift.framework in Embed Frameworks */,
+				48EFD4A3215F75CB00C80396 /* EllipticCurveKit.framework in Embed Frameworks */,
+				48EFD4A4215F75CB00C80396 /* JSONRPCKit.framework in Embed Frameworks */,
+				48EFD4A5215F75CB00C80396 /* Result.framework in Embed Frameworks */,
+				48EFD4A6215F75CB00C80396 /* RxCocoa.framework in Embed Frameworks */,
+				48EFD4A7215F75CB00C80396 /* RxSwift.framework in Embed Frameworks */,
+				48EFD4A8215F75CB00C80396 /* SipHash.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
