@@ -57,8 +57,6 @@ playground.xcworkspace
 
 # Carthage/Checkouts # For safety reasons we don't want to gitignore the `Checkout` folder, read more: https://github.com/Carthage/Carthage/blob/83bbffd25172df767cf578ca17b0cfbbbf913d35/Documentation/Artifacts.md#carthagebuild
 
-Carthage/Build
-
 # fastlane
 #
 # It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
