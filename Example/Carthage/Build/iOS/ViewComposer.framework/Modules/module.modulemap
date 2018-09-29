@@ -1,0 +1,11 @@
+framework module ViewComposer {
+  umbrella header "ViewComposer.h"
+
+  export *
+  module * { export * }
+}
+
+module ViewComposer.Swift {
+    header "ViewComposer-Swift.h"
+    requires objc
+}

@@ -1,0 +1,9 @@
+{
+  "commitish" : "0de05ee9a76323c16f8c8b0979d2e9530f30c8e5",
+  "iOS" : [
+    {
+      "name" : "EllipticCurveKit",
+      "hash" : "87614696059af571a10361144a817b795f38efe5269d6b451e27b740f6786c9d"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "commitish" : "9a3682ee6fa2ec95e730c7b39e084696b1da40d0",
+  "iOS" : [
+    {
+      "name" : "ViewComposer",
+      "hash" : "f88e5ca611cf8ed38d035831b4a0de9f9c0f5c5be71fe73db974986cba92d3b2"
+    }
+  ]
+}

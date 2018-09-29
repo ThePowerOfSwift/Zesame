@@ -1,0 +1,9 @@
+{
+  "commitish" : "3.2.0",
+  "iOS" : [
+    {
+      "name" : "FormValidatorSwift",
+      "hash" : "3e7b5e9d26d4441d0a2c6bb257f8f599c6a0f9d401ce450a81b9c325f24ea54f"
+    }
+  ]
+}
