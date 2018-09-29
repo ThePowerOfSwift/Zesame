@@ -644,7 +644,6 @@
 				484B063220BA0C2D00C4E50A /* Sources */,
 				484B063320BA0C2D00C4E50A /* Frameworks */,
 				484B063420BA0C2D00C4E50A /* Resources */,
-				48F03FA22142690800A13E5E /* Carthage */,
 				48F03F862142680300A13E5E /* Embed Frameworks */,
 			);
 			buildRules = (
@@ -801,51 +800,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		48F03FA22142690800A13E5E /* Carthage */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/TinyConstraints.framework",
-				"$(SRCROOT)/../Carthage/Build/iOS/RxSwift.framework",
-				"$(SRCROOT)/../Carthage/Build/iOS/RxCocoa.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/ViewComposer.framework",
-				"$(SRCROOT)/../Carthage/Build/iOS/EllipticCurveKit.framework",
-				"$(SRCROOT)/../Carthage/Build/iOS/BigInt.framework",
-				"$(SRCROOT)/../Carthage/Build/iOS/SipHash.framework",
-				"$(SRCROOT)/../Carthage/Build/iOS/CryptoSwift.framework",
-				"$(SRCROOT)/../Carthage/Build/iOS/APIKit.framework",
-				"$(SRCROOT)/../Carthage/Build/iOS/JSONRPCKit.framework",
-				"$(SRCROOT)/../Carthage/Build/iOS/Result.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/FormValidatorSwift.framework",
-			);
-			name = Carthage;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/TinyConstraints.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxCocoa.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/ViewComposer.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/EllipticCurveKit.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/BigInt.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SipHash.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/CryptoSwift.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/APIKit.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/JSONRPCKit.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Result.framework",
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/FormValidatorSwift.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		484B063220BA0C2D00C4E50A /* Sources */ = {
