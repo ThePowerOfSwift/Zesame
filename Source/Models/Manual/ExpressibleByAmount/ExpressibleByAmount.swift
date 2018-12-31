@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import BigInt
 
 /// A type representing an Zilliqa amount in any denominator, specified by the `Unit` and the value measured
 /// in said unit by the `Magnitude`. For convenience any type can be converted to the default units, such as
@@ -23,9 +24,9 @@ CustomDebugStringConvertible,
 ExpressibleByIntegerLiteral,
 ExpressibleByFloatLiteral,
 ExpressibleByStringLiteral
-where Magnitude == Double {
+where Magnitude == BigInt {
 
-    associatedtype Magnitude: Comparable & Numeric
+    associatedtype Magnitude
 
     // These are the two most important properties of the `ExpressibleByAmount` protocol,
     // the unit in which the value - the magnitude is measured.
@@ -33,7 +34,7 @@ where Magnitude == Double {
     var magnitude: Magnitude { get }
 
     // "Designated" initializer
-    init(valid: Magnitude)
+    init(_ value: Magnitude, in unit: Unit)
 
     // Convenience translations
     var inLi: Li { get }
@@ -48,4 +49,12 @@ where Magnitude == Double {
     init(zil zilString: String) throws
     init(li liString: String) throws
     init(qa qaString: String) throws
+}
+
+extension ExpressibleByAmount {
+    init<UE>(amount unbound: UE) where UE: Unbound & ExpressibleByAmount {
+//        self.init(valid: unbound.valueMeasured(in: Self.unit))
+        self.init(unbound.magnitude, in: unbound.unit)
+    }
+
 }
